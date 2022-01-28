@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+/*ストップウォッチ*/
+.stopWatch {
+  margin: 70px 40px;
+}
+.stopWatch h3 {
+  font-size: 30px;
+}
+#timer {
+  margin: 50px 30px;
+  font-size: 50px
+}
+button {
+  width: 130px;
+  height: 70px;
+  margin-left: 5px;
+  background-color: #c0c0c0;
+  border-radius: 5px;
+  font-size: 22px;
+}
+

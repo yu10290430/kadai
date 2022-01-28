@@ -1,0 +1,46 @@
+ <html lang="ja">
+      <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="dentaku.css">
+        <title>電卓</title>
+      </head>
+      <body>
+       <table class= "dentaku">
+             <tr>
+              <td colspan="4">
+                <input type="text" id= "result" name="display" value="0" />
+              </td>
+            </tr>
+              <tr class="small_btn">
+              <td><input class="number" type="button" value="7" onclick="clickbutton(this)"/></td>
+              <td><input class="number" type="button" value="8" onclick="clickbutton(this)"/></td>
+              <td><input class="number" type="button" value="9" onclick="clickbutton(this)"/></td>
+              <td><input class="cal" type="button" value="+" onclick="clickbutton(this)"/></td>
+              </tr>
+             <tr class="small_btn">
+              <td><input class="number" type="button" value="4" onclick="clickbutton(this)"/></td>
+              <td><input class="number" type="button" value="5" onclick="clickbutton(this)"/></td>
+              <td><input class="number" type="button" value="6" onclick="clickbutton(this)"/></td>
+              <td><input class="cal" type="button" value="-" onclick="clickbutton(this)"/></td>
+              </tr>
+              <tr class="small_btn">
+              <td><input class="number" type="button" value="1" onclick="clickbutton(this)"/></td>
+              <td><input class="number" type="button" value="2" onclick="clickbutton(this)"/></td>
+              <td><input class="number" type="button" value="3" onclick="clickbutton(this)"/></td>
+              <td><input class="cal" type="button" value="*" onclick="clickbutton(this)"/></td>
+              </tr>
+              <tr class="small_btn">
+              <td><input class="number" type="button" value="0" onclick="clickbutton(this)"/></td>
+              <td><input class="number" type="button" value="00" onclick="clickbutton(this)"/></td>
+              <td><input class="point" type="button" value="." onclick="clickbutton(this)"/></td>
+              <td><input class="cal" type="button" value="/" onclick="clickbutton(this)"/></td>
+              </tr>
+              <tr class="big_btn">
+              <td colspan="2"><input class="btn" type="button" value="AC" onclick="clickbutton(this)"/></td>
+              <td colspan="2"><input class="btn" type="button" value="=" onclick="clickbutton(this)"/></td>
+              </tr>
+          </table>
+        <script type="text/javascript" src="dentaku.js" charset="utf-8"></script>
+      </body>
+    </html>

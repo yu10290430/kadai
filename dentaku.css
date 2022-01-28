@@ -1,0 +1,27 @@
+.dentaku {
+  margin: 40px;
+  width: 500px;
+}
+#result {
+  height: 70px;
+  width: 500px;
+  background-color: black;
+  color: white;
+  text-align: right;
+  font-size: 25px;
+}
+ .small_btn input {
+  width: 125px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+ }
+ .big_btn input {
+  width: 253px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+ }
+
